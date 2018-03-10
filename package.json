@@ -1,0 +1,31 @@
+{
+  "name": "bamazon",
+  "version": "0.0.0",
+  "description": "script that stores products in a database and gives user the ability to make changes to stored product information.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpeterson78/bamazon.git"
+  },
+  "keywords": [
+    "mySQL",
+    "node",
+    "npm",
+    "inquirer"
+  ],
+  "author": "Anthony Peterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arpeterson78/bamazon/issues"
+  },
+  "homepage": "https://github.com/arpeterson78/bamazon#readme",
+  "dependencies": {
+    "clm": "^1.2.1",
+    "console.table": "^0.10.0",
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  }
+}
